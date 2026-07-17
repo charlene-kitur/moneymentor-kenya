@@ -487,8 +487,13 @@ function App() {
               <i className="fas fa-file-excel"></i>
               <h3>Templates</h3>
               <p>
-                <a href="#" style={{ color: 'var(--primary)' }}>Download Excel Budget</a> · 
-                <a href="#" style={{ color: 'var(--primary)' }}> PDF Tracker</a>
+                <a href="/downloads/budget.xlsx" download>
+  Download Excel Budget
+</a>
+
+<a href="/downloads/tracker.pdf" download>
+  PDF Tracker
+</a>
               </p>
             </div>
             <div className="card">
